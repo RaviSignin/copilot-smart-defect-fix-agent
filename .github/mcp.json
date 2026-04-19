@@ -1,0 +1,33 @@
+{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "alwaysAllow": [
+        "create_issue",
+        "get_issue",
+        "add_issue_comment",
+        "list_issues",
+        "update_issue",
+        "search_issues",
+        "create_pull_request",
+        "get_pull_request",
+        "list_pull_requests",
+        "merge_pull_request",
+        "create_or_update_file",
+        "get_file_contents",
+        "push_files",
+        "create_branch",
+        "list_branches",
+        "search_code",
+        "search_repositories",
+        "request_copilot_review",
+        "request_reviewers",
+        "get_me",
+        "list_commits",
+        "get_commit",
+        "list_check_runs_for_commit"
+      ]
+    }
+  }
+}

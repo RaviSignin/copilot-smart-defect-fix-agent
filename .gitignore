@@ -1,0 +1,43 @@
+# Maven build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Node / frontend
+node_modules/
+dist/
+.pnpm-store/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+*.env
+
+# Test results / coverage
+test-results/
+playwright-report/
+jacoco.exec
+*.exec
+
+# Docker
+.dockerignore
+
+# Copilot Code
+.copilot/
+COPILOT.md
+AGENTS.md
+.code-review-graph/
